@@ -1,0 +1,14 @@
+{
+    "use_imdb":1,
+    "embed_dim":300,
+    "pos_embed_dim":100,
+    "use_pos":"True",
+    "split_ratio":0.33,
+    "max_len":200,
+    "vocab_size":10000,
+    "trainable_param":"False",
+    "option":2,
+    "workers":3,
+    "window":1
+
+}
