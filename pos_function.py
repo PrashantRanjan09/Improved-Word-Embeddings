@@ -19,8 +19,6 @@ class Embed:
         self.pos_trainable_param = pos_trainable_param
 
 
-
-
     def embed_sentences(self,word_index,model,trainable_param,X_train_pad):
 
         embedding_matrix = np.zeros((self.vocab_size,self.embed_dim))
@@ -41,7 +39,7 @@ class Embed:
         embed_seq = embed_layer(input_seq)
         return input_seq,embed_seq
 
-
+    
     def tag_pos1(self,sentences):
         pos_tagged_sent = []
         pos_tagged_sent_all = []
