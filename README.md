@@ -42,7 +42,7 @@ To run it on your corpus:
 
       In config.json assign use_imdb : 0
       
-The model used is a very generic one. Feel free to make changes to the model as per your requirements
+The model used is a very generic one. Feel free to make changes to the model as per your requirements.
 To change model:
 
      In pos_function.py change model_build
